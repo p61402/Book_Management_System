@@ -1,3 +1,3 @@
-# QOO
+# Book_Management_System
 
-A crazy guy.
+A system to cope with things about library.
