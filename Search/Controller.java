@@ -45,6 +45,7 @@ public class Controller{
     private int max_page;
     private SimpleDoubleProperty prop = new SimpleDoubleProperty(0);
     private String text;
+    private int mode;
 
     @FXML
     public void initialize() {
@@ -68,12 +69,14 @@ public class Controller{
             if (not_store_the_keyword)
                 return;
 
+            mode = 1;
             Spider spider = new Spider("https://www.google.com.tw/search?q=" + text, text, 1);
 
             spider.start();
             progress_running(spider);
 
         } else {
+            mode = 2;
             Spider spider = new Spider("https://www.google.com/search?tbm=isch&q=" + text, text, 2);
 
             spider.start();
@@ -218,7 +221,8 @@ public class Controller{
                         titles = spider.getTitlesStored();
                         urls = spider.getPagesStored();
                         max_page = titles.size() / 10;
-                        store_keyword(text);
+                        if (mode == 1)
+                            store_keyword(text);
                         update_list(0);
 
                         enable_all_buttons();
