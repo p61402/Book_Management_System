@@ -1,0 +1,76 @@
+.button {
+    -fx-background-color: #2196F3;
+    -fx-background-radius: 0;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #87CEFA
+}
+
+.button:pressed {
+  -fx-background-color: #87CEFA;
+  -fx-effect: dropshadow(three-pass-box, white, 10, 0, 0, 0);
+  -fx-translate-y: 3px;
+}
+
+.new_folder_button {
+    -fx-background-image: url('File:icons/add_folder_icon.png');
+    -fx-background-radius: 100%;
+    -fx-background-color: transparent;
+}
+
+.delete_button {
+    -fx-background-image: url('File:icons/delete_file_icon.png');
+    -fx-background-radius: 100%;
+    -fx-background-color: transparent;
+}
+
+.new_folder_button:hover {
+    -fx-effect: dropshadow(three-pass-box, white, 5, 0, 0, 0);
+    -fx-background-color: #e0e0e0
+}
+
+.delete_button:hover {
+    -fx-effect: dropshadow(three-pass-box, white, 5, 0, 0, 0);
+    -fx-background-color: #e0e0e0
+}
+
+.new_folder_button:pressed {
+  -fx-translate-y: 3px;
+}
+
+.delete_button:pressed {
+  -fx-translate-y: 3px;
+}
+
+.question_button {
+    -fx-background-image: url('File:icons/question_icon.png');
+    -fx-background-radius: 100%;
+    -fx-background-color: transparent;
+}
+
+.question_button:hover {
+    -fx-effect: dropshadow(three-pass-box, white, 15, 0, 0, 0);
+}
+
+.settings_button {
+    -fx-background-image: url('File:icons/settings_icon.png');
+    -fx-background-radius: 100%;
+    -fx-background-color: transparent;
+}
+
+.settings_button:hover {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, white, 15, 0, 0, 0);
+}
+
+.upload_button:pressed {
+    -fx-translate-x: 3px;
+    -fx-translate-y: 0px;
+}
+
+.download_button:pressed {
+    -fx-translate-x: -3px;
+    -fx-translate-y: 0px;
+}
