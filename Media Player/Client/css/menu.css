@@ -1,0 +1,36 @@
+.button {
+    -fx-background-color: #2196F3;
+    -fx-background-radius: 0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, black, 5, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #52A8FF;
+}
+
+.button:pressed {
+    -fx-translate-y: 3px;
+}
+
+#music_button {
+    -fx-background-color: #0066CC;
+    -fx-background-radius: 0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, black, 8, 0, 0, 0);
+}
+
+#video_button {
+    -fx-background-color: #0066CC;
+    -fx-background-radius: 0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, black, 8, 0, 0, 0);
+}
+
+#music_button:hover {
+    -fx-background-color: #0070CC;
+}
+
+#video_button:hover {
+    -fx-background-color: #0070CC;
+}

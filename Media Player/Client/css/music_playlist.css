@@ -1,0 +1,74 @@
+#image_icon {
+    -fx-image: url('file:icons/music_icon.png');
+}
+
+#play_button {
+    -fx-background-image: url('File:icons/pause_icon.png');
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+#volume_label {
+    -fx-background-image: url('File:icons/volume_icon.png');
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+#time_slider .thumb {
+    -fx-background-color: red;
+}
+
+#time_slider .track {
+    -fx-background-radius: 0;
+}
+
+#volume_slider .thumb {
+    -fx-background-color: black;
+}
+
+#volume_slider .track {
+    -fx-background-radius: 0;
+}
+
+#bottom_pane {
+    -fx-background-color: #D0D0D0;
+    -fx-opacity: 0.8;
+}
+
+#play_button:hover {
+    -fx-background-color: white;
+}
+
+#next_button {
+    -fx-background-image: url('File:icons/play_next_icon.png');
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+#next_button:hover {
+    -fx-background-color: white;
+}
+
+#loop_button {
+    -fx-background-image: url('File:icons/sequential_icon.png');
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+#loop_button:hover {
+    -fx-background-color: white;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-background-image: url('File:icons/back_icon.png');
+}
+
+.button:hover {
+    -fx-background-color: white;
+}
+
+.button:pressed {
+    -fx-translate-y: 3px;
+    -fx-background-color: white;
+}

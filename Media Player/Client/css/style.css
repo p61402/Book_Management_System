@@ -1,0 +1,68 @@
+#play_button {
+    -fx-background-image: url('File:icons/pause_icon.png');
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+#volume_label {
+    -fx-background-image: url('File:icons/volume_icon.png');
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+#full_screen_button {
+    -fx-background-image: url('File:icons/full_screen_icon.png');
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+#time_slider .thumb {
+    -fx-background-color: red;
+}
+
+#time_slider .track {
+    -fx-background-radius: 0;
+}
+
+#volume_slider .thumb {
+    -fx-background-color: black;
+}
+
+#volume_slider .track {
+    -fx-background-radius: 0;
+}
+
+#top_pane {
+    -fx-background-color: #D0D0D0;
+    -fx-opacity: 0.8;
+}
+
+#bottom_pane {
+    -fx-background-color: #D0D0D0;
+    -fx-opacity: 0.8;
+}
+
+#play_button:hover {
+    -fx-effect: dropshadow(three-pass-box, white, 5, 0, 0, 0);
+    -fx-background-color: white;
+}
+
+#full_screen_button:hover {
+    -fx-effect: dropshadow(three-pass-box, white, 5, 0, 0, 0);
+    -fx-background-color: white;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-background-image: url('File:icons/back_icon.png')
+}
+
+.button:hover {
+    -fx-effect: dropshadow(three-pass-box, white, 5, 0, 0, 0);
+    -fx-background-color: white;
+}
+
+.button:pressed {
+    -fx-translate-y: 3px;
+    -fx-background-color: white;
+}

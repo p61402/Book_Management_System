@@ -1,0 +1,18 @@
+#image {
+    -fx-image: url('File:icons/title_icon(h).png');
+}
+
+.button {
+    -fx-background-color: #2196F3;
+    -fx-background-radius: 0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #52A8FF;
+}
+
+.button:pressed {
+    -fx-translate-y: 3px;
+}

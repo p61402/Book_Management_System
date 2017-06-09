@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.VideoPlaylistController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#BackToMenuButtonOnClicked" prefHeight="32.0" prefWidth="32.0" />
+      <Label layoutX="64.0" layoutY="16.0" text="PlayList">
+         <font>
+            <Font name="Consolas" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutY="49.0" prefHeight="11.0" prefWidth="600.0" />
+      <ListView fx:id="playlist" layoutY="60.0" prefHeight="341.0" prefWidth="600.0" />
+   </children>
+</AnchorPane>
