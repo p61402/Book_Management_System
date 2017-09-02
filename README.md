@@ -1,2 +1,2 @@
 # Network-Programming-Homework
-Most of them wrote by JAVA.
+Implement network applications in JAVA.
